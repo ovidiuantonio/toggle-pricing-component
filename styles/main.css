@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 52.5%;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -23,25 +23,25 @@ html {
 
 @media only screen and (min-width: 2200px) {
   html {
-    font-size: 102.5%;
+    font-size: 92.5%;
   }
 }
 
 @media only screen and (min-width: 2600px) {
   html {
-    font-size: 122.5%;
+    font-size: 112.5%;
   }
 }
 
 @media only screen and (min-width: 3300px) {
   html {
-    font-size: 142.5%;
+    font-size: 132.5%;
   }
 }
 
 @media only screen and (min-width: 4400px) {
   html {
-    font-size: 182.5%;
+    font-size: 172.5%;
   }
 }
 
@@ -73,7 +73,8 @@ body {
 .content {
   max-width: 144rem;
   height: 100vh;
-  padding: 7vh 15vw;
+  padding: 7vh 16vw;
+  margin-bottom: 5rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -90,7 +91,7 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -192,7 +193,7 @@ body {
 }
 
 .card__price {
-  font-size: 5rem;
+  font-size: 6rem;
   padding-bottom: 2rem;
 }
 
@@ -245,7 +246,7 @@ body {
 .title {
   font-size: 3rem;
   color: var(--Dark-Grayish-Blue);
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .toggle-option {

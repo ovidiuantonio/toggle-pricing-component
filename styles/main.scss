@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 52.5%;
 
   @media only screen and (min-width: 1600px) {
     font-size: 72.5%;
@@ -16,19 +16,19 @@ html {
   }
 
   @media only screen and (min-width: 2200px) {
-    font-size: 102.5%;
+    font-size: 92.5%;
   }
 
   @media only screen and (min-width: 2600px) {
-    font-size: 122.5%;
+    font-size: 112.5%;
   }
 
   @media only screen and (min-width: 3300px) {
-    font-size: 142.5%;
+    font-size: 132.5%;
   }
 
   @media only screen and (min-width: 4400px) {
-    font-size: 182.5%;
+    font-size: 172.5%;
   }
 }
 
@@ -58,7 +58,8 @@ body {
 .content {
   max-width: 144rem;
   height: 100vh;
-  padding: 7vh 15vw;
+  padding: 7vh 16vw;
+  margin-bottom: 5rem;
   text-align: center;
   margin: 0 auto;
 
@@ -69,7 +70,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
     cursor: pointer;
     transition: all 0.3s ease;
   }
@@ -144,7 +145,7 @@ body {
   }
 
   &__price {
-    font-size: 5rem;
+    font-size: 6rem;
     padding-bottom: 2rem;
   }
 
@@ -191,7 +192,7 @@ body {
 .title {
   font-size: 3rem;
   color: var(--Dark-Grayish-Blue);
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .toggle-option {
