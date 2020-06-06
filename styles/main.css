@@ -9,6 +9,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
 @media only screen and (min-width: 1600px) {
   html {
     font-size: 72.5%;
