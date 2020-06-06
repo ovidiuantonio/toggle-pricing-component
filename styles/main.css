@@ -269,6 +269,11 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.card__features--big .feature:not(:nth-of-type(2)) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .feature:last-child {
   margin-bottom: 4rem;
 }
