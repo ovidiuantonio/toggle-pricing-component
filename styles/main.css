@@ -205,7 +205,6 @@ body {
 
 .card__features {
   color: var(--Light-Grayish-Blue);
-  opacity: 75%;
 }
 
 .card__features--big {
@@ -266,8 +265,8 @@ body {
 }
 
 .feature:not(:nth-of-type(2)) {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .feature:last-child {
